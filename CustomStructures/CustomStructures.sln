@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OurCustomList", "CustomList\OurCustomList.csproj", "{A1EAF474-EBCE-4510-A76D-79DADD2CDDC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OurCustomQueue", "CustomQueue\OurCustomQueue.csproj", "{595601CF-5038-4A5F-BD06-D3FBD53F1F3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1EAF474-EBCE-4510-A76D-79DADD2CDDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EAF474-EBCE-4510-A76D-79DADD2CDDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EAF474-EBCE-4510-A76D-79DADD2CDDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EAF474-EBCE-4510-A76D-79DADD2CDDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{595601CF-5038-4A5F-BD06-D3FBD53F1F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595601CF-5038-4A5F-BD06-D3FBD53F1F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595601CF-5038-4A5F-BD06-D3FBD53F1F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595601CF-5038-4A5F-BD06-D3FBD53F1F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C91CFCB-3E75-4A32-ACE0-EC6C31ABFE7B}
+	EndGlobalSection
+EndGlobal
