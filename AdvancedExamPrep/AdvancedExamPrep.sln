@@ -53,13 +53,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17. Re-Volt v2", "17. Re-Vo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guild", "18. Guild\Guild.csproj", "{350E6E48-4826-47B0-B1D5-09935EF0FA5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Crossroads", "18. Crossroads\18. Crossroads.csproj", "{0425F244-D68A-425E-B4D2-C2B7F12A62A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18. Crossroads", "18. Crossroads\18. Crossroads.csproj", "{0425F244-D68A-425E-B4D2-C2B7F12A62A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Barista Contest", "19. Barista Contest\19. Barista Contest.csproj", "{7DEB2857-1C0C-406C-9A10-7805A9E7789B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19. Barista Contest", "19. Barista Contest\19. Barista Contest.csproj", "{7DEB2857-1C0C-406C-9A10-7805A9E7789B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Help-A-Mole", "20. Help-A-Mole\20. Help-A-Mole.csproj", "{4C269427-C486-46E6-9D44-66B04C33CBFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20. Help-A-Mole", "20. Help-A-Mole\20. Help-A-Mole.csproj", "{4C269427-C486-46E6-9D44-66B04C33CBFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21. Help-A-Mole", "21. Help-A-Mole\21. Help-A-Mole.csproj", "{320DF476-85DE-4B58-801C-976237F16ABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21. Help-A-Mole", "21. Help-A-Mole\21. Help-A-Mole.csproj", "{320DF476-85DE-4B58-801C-976237F16ABE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basketball", "22. Basketball\Basketball.csproj", "{13954633-9CFD-4880-B8E9-FD61E290C794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22. Meal Plan", "22. Meal Plan\22. Meal Plan.csproj", "{ED207653-EB75-47BB-B89D-7EB15B298373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23. Truffle Hunter", "23. Truffle Hunter\23. Truffle Hunter.csproj", "{D8051447-6805-4601-86A0-C4FE6CE071F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo", "24. Zoo\Zoo.csproj", "{52E38C15-5C90-4FAD-BA36-4326795C44AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +191,22 @@ Global
 		{320DF476-85DE-4B58-801C-976237F16ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{320DF476-85DE-4B58-801C-976237F16ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{320DF476-85DE-4B58-801C-976237F16ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13954633-9CFD-4880-B8E9-FD61E290C794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13954633-9CFD-4880-B8E9-FD61E290C794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13954633-9CFD-4880-B8E9-FD61E290C794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13954633-9CFD-4880-B8E9-FD61E290C794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED207653-EB75-47BB-B89D-7EB15B298373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED207653-EB75-47BB-B89D-7EB15B298373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED207653-EB75-47BB-B89D-7EB15B298373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED207653-EB75-47BB-B89D-7EB15B298373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8051447-6805-4601-86A0-C4FE6CE071F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8051447-6805-4601-86A0-C4FE6CE071F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8051447-6805-4601-86A0-C4FE6CE071F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8051447-6805-4601-86A0-C4FE6CE071F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E38C15-5C90-4FAD-BA36-4326795C44AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E38C15-5C90-4FAD-BA36-4326795C44AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E38C15-5C90-4FAD-BA36-4326795C44AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E38C15-5C90-4FAD-BA36-4326795C44AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
