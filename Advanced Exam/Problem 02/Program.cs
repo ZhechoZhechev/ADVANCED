@@ -28,17 +28,14 @@ namespace Problem_02
                     raceTrack[row, col] = colsInfo[col];
                 }
             }
+            raceTrack[carRow, carCol] = 'C';
+
             string commands = string.Empty;
             while ((commands = Console.ReadLine()) != "End")
             {
+
                 if (carWon) break;
-                //if (raceTrack[0, 0] == 'F')
-                //{
-                //    carWon = true;
-                //    raceTrack[0, 0] = 'C';
-                //    killometersCovered += 10;
-                //    break;
-                //}
+
                 if (commands == "up")
                 {
                     Move(-1, 0, ref carRow, ref carCol, ref carWon, ref killometersCovered, raceTrack);
@@ -83,8 +80,8 @@ namespace Problem_02
             }
             else if (raceTrack[newRow, newCol] == 'T')
             {
-                raceTrack[newRow, newCol] = '.';
                 raceTrack[carRow, carCol] = '.';
+                raceTrack[newRow, newCol] = '.';
                 int secondSRow = 0;
                 int secondSCol = 0;
                 for (int i = 0; i < raceTrack.GetLength(0); i++)
